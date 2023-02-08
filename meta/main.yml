@@ -1,8 +1,8 @@
 galaxy_info:
   author: Ilya T.
-  description: This role install vector
   role_name: vector-role
   namespace: marc010
+  description: This role install vector
 
   license: MIT
 
