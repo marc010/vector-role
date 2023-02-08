@@ -1,6 +1,6 @@
 galaxy_info:
-  author: Ilya T.
   role_name: vector
+  author: Ilya T.
   namespace: marc010
   description: This role install vector
 
@@ -8,10 +8,10 @@ galaxy_info:
 
   min_ansible_version: 2.10
 
-   platforms:
-     - name: EL
-       versions:
-         - 7
-         - 8
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
 
 dependencies: []
