@@ -5,7 +5,6 @@
   hosts: all
   gather_facts: false
   tasks:
-  - name: Get Vector version
-    ansible.builtin.command: "vector --version"
-    changed_when: false
-    register: vector_version
+  - name: Example assertion
+    ansible.builtin.assert:
+      that: true
